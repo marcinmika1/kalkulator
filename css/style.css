@@ -1,0 +1,55 @@
+#kalkulator{
+    background-color: aqua;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+header{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+input{
+    width: 95%;
+    height: 59px;
+    margin-top: 30px;
+}
+
+#cyfry{
+    float: left;
+    width: 70%;
+    height: 300px;
+    background-color: beige;
+    text-align: center
+}
+
+.numer {
+    background-color: aliceblue;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 2px;
+    height: 70px;
+}
+
+.zero{
+    width: 210px;
+}
+
+#dzialania{
+    background-color: fuchsia;
+    height: 300px;
+    text-align: center;
+}
+.rodzaj{
+    text-align: center;
+    height: 57px;
+    line-height: 50px;
+    display: inline-block;
+    width: 140px;
+    background-color: forestgreen;
+    margin: 1px;
+}
+
