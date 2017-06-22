@@ -1,39 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   
-   <section id="kalkulator">
-      
-      <header id="wynik">
-         <input type="text"> 
-      </header>
-    <div id="cyfry">
-          <div class="numer jeden"><h3>1</h3></div>
-          <div class="numer dwa"><h3>2</h3></div>
-          <div class="numer trzy"><h3>3</h3></div>
-          <div class="numer cztery"><h3>4</h3></div>
-          <div class="numer piec"><h3>5</h3></div>
-          <div class="numer szesc"><h3>6</h3></div>
-          <div class="numer siedem"><h3>7</h3></div>
-          <div class="numer osiem"><h3>8</h3></div>
-          <div class="numer dziewiec"><h3>9</h3></div>
-          <div class="numer zero"><h3>0</h3></div>
-          <div class="numer kropka"><h3>.</h3></div>
-    </div>
-      <div id="dzialania">
-          <div class="rodzaj">+</div>
-          <div class="rodzaj">-</div>
-          <div class="rodzaj">*</div>
-          <div class="rodzaj">/</div>
-          <div class="rodzaj">=</div>
-      </div>
-       
-   </section>
+
+    <section id="kalkulator">
+
+        <header id="wynik">
+            <input type="text" class="dzialanie">
+        </header>
+        <div id="cyfry">
+            <div class="numer jeden">
+                <h3>1</h3>
+            </div>
+            <div class="numer dwa">
+                <h3>2</h3>
+            </div>
+            <div class="numer trzy">
+                <h3>3</h3>
+            </div>
+            <div class="numer cztery">
+                <h3>4</h3>
+            </div>
+            <div class="numer piec">
+                <h3>5</h3>
+            </div>
+            <div class="numer szesc">
+                <h3>6</h3>
+            </div>
+            <div class="numer siedem">
+                <h3>7</h3>
+            </div>
+            <div class="numer osiem">
+                <h3>8</h3>
+            </div>
+            <div class="numer dziewiec">
+                <h3>9</h3>
+            </div>
+            <div class="numer" id="zero">
+                <h3>0</h3>
+            </div>
+            <div class="numer kropka">
+                <h3>.</h3>
+            </div>
+        </div>
+        <div id="dzialania">
+            <div class="rodzaj">+</div>
+            <div class="rodzaj">-</div>
+            <div class="rodzaj">*</div>
+            <div class="rodzaj">/</div>
+            <div class="rodzaj">=</div>
+        </div>
+
+    </section>
     
+    <p id="to"></p>
+
+    <script>
+document.getElementById("zero").onclick = function() {myFunction()};
+
+function myFunction() {
+    document.getElementById("to").innerHTML="1";
+}
+
+    </script>
+
+
+
 </body>
+
 </html>
